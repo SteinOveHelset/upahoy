@@ -1,9 +1,9 @@
 -DONE Create projects (Django + Vue)
 -DONE Make sure that both can run
 -DONE Create simple front page
--Add github repo
--Create simple about page
--Create simple pricing page
+-DONE Add github repo
+-DONE Create simple about page
+-DONE Create simple pricing page
 -Create simple sign up page
 -Create simple log in page
 -Create simple dashboard page

@@ -6,10 +6,11 @@ import { RouterLink, RouterView } from 'vue-router'
   <div>
     <nav class="py-6 px-8 bg-gray-800 flex items-center justify-between text-white">
       <div class="menu-left">
-        <a href="/" class="text-xl text-white">Upahoy</a>
+        <RouterLink :to="{'name': 'home'}" class="text-xl text-white">Upahoy</RouterLink>
       </div>
 
       <div class="menu-right space-x-4">
+        <RouterLink :to="{'name': 'pricing'}" class="text-white">Pricing</RouterLink>
         <a href="#" class="px-4 py-2 bg-cyan-400 rounded-xl">Sign up</a>
         <a href="#" class="px-4 py-2 bg-gray-600 rounded-xl">Log in</a>
       </div>
@@ -32,7 +33,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <h3 class="mb-5 text-xl">Menu</h3>
 
         <div class="flex flex-col space-y-4">
-          <a href="#">About</a>
+          <RouterLink :to="{'name': 'about'}">About</RouterLink>
           <a href="#">Contact</a>
           <a href="#">Terms of service</a>
           <a href="#">Privacy policy</a>
