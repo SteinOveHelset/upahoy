@@ -4,11 +4,11 @@
 -DONE Add github repo
 -DONE Create simple about page
 -DONE Create simple pricing page
--Create simple sign up page
--Create simple log in page
--Create simple dashboard page
--Install everything I need
+-DONE Create simple sign up page
+-DONE Create simple log in page
+-DONE Create simple dashboard page
 -Connect front end and back end (auth)
+-Install everything I need
 -Make it possible to create uptime checks
 -Show a list of checks
 -Edit/Delte checks

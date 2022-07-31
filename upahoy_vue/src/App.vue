@@ -11,8 +11,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <div class="menu-right space-x-4">
         <RouterLink :to="{'name': 'pricing'}" class="text-white">Pricing</RouterLink>
-        <a href="#" class="px-4 py-2 bg-cyan-400 rounded-xl">Sign up</a>
-        <a href="#" class="px-4 py-2 bg-gray-600 rounded-xl">Log in</a>
+        <RouterLink :to="{'name': 'signup'}" class="px-4 py-2 bg-cyan-400 rounded-xl">Sign up</RouterLink>
+        <RouterLink :to="{'name': 'login'}" class="px-4 py-2 bg-gray-600 rounded-xl">Log in</RouterLink>
       </div>
     </nav>
 
