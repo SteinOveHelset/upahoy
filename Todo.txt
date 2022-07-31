@@ -1,0 +1,25 @@
+-DONE Create projects (Django + Vue)
+-DONE Make sure that both can run
+-DONE Create simple front page
+-Add github repo
+-Create simple about page
+-Create simple pricing page
+-Create simple sign up page
+-Create simple log in page
+-Create simple dashboard page
+-Install everything I need
+-Connect front end and back end (auth)
+-Make it possible to create uptime checks
+-Show a list of checks
+-Edit/Delte checks
+-Show / Edit your account
+-Implement payment gateway, set limitations, etc
+-Create python script for running the uptime checks
+-Send email when a check is down
+-Deploy
+-Marketing
+
+-Possible upgrades
+	-Forgot password functionality
+	-Confirm email address
+	-Uptime monitors for sql databases
